@@ -1,0 +1,350 @@
+import Image from "next/image";
+import Link from "next/link";
+import { BiBookOpen } from "react-icons/bi";
+import { FiGlobe } from "react-icons/fi";
+import { GoArrowUpRight } from "react-icons/go";
+
+const MyProjects = () => {
+  return (
+    <div id="projects" className="py-10">
+      <div className="flex flex-col gap-2 items-center justify-center">
+        <h4 className=" text-balance tracking-tight  leading-tight text-base hover:bg-white/80 transition-all duration-300 py-1 px-3 bg-white font-medium rounded-lg w-fit text-black">
+          My Projects
+        </h4>
+        <h1 className="text-5xl text-balance leading-tight tracking-tighter text-center font-bold ">
+          Check out my latest work
+        </h1>
+        <h2 className="text-xl opacity-60 text-balance text-center leading-tight">
+          I've worked on a variety of projects, from simple websites to complex
+          web applications. Here are a few of my favorites.
+        </h2>
+      </div>
+      <div className="w-full grid-cols-1 sm:grid-cols-2 py-5 grid gap-5">
+        <ProjectCard
+          name={"AI Captioning Tool"}
+          img={"/assets/projects/caption.jpg"}
+          description={
+            "I built this full-stack SaaS to solve a problem I faced as a video editor. It uses Remotion for programmatic video creation and AWS Lambda for serverless rendering, allowing creators to generate professional animated captions automatically and save hours of work."
+          }
+          tech={[
+            "Next.js",
+            "Supabase",
+            "Remotion",
+            "Tailwind CSS",
+            "AWS Lambda",
+            "Cloudflare R2",
+            "Stripe",
+            "React",
+          ]}
+          casestudy={"/project/caption"}
+        />
+        <ProjectCard
+          name={"Ludi"}
+          img={"/assets/projects/ludi/cover.png"}
+          description={
+            "A social network for gamers to review, catalog, and rank games—similar to Letterboxd. It features a custom ranking algorithm that ranks games dynamically based on user choices in a comparison mini-game. Developed using React Native and Convex, the app is currently in closed-beta testing for iOS and Android."
+          }
+          tech={[
+            "React Native",
+            "Expo",
+            "Convex",
+            "Clerk",
+            "Firebase FCM",
+            "Expo Notifications",
+            "Tailwind CSS",
+          ]}
+          link={"https://ludi.social"}
+          casestudy={"/project/ludi"}
+        />
+        <ProjectCard
+          name={"Neurogence"}
+          img={"/assets/projects/neurogence.png"}
+          description={
+            "A structured learning intelligence system designed to help ABA therapists and specialists capture session activity, understand support delivery, and track progress over time. Developed to turn quiet session signals into clear, actionable progress metrics, the platform is currently under active development."
+          }
+          tech={["Next.js", "React", "Tailwind CSS", "Healthcare Tech"]}
+          link={"https://neurogence.ai/"}
+        />
+        <ProjectCard
+          name={"Grand Masti Tours"}
+          img={"/assets/projects/gmt/banner.png"}
+          description={
+            "A Tour Management System built for our university database project. Travellers can create private trip plans, invite friends to collaborate, and plan routes on an interactive map. Businesses can create profiles, design trip packages, set margins, and publish them to a marketplace. The platform also includes booking management, announcements, and a dedicated admin panel to manage users, trips, and overall system activity."
+          }
+          tech={[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "PHP",
+            "MySQL",
+            "Google Places API",
+            "Leaflet.js",
+            "Lucide Icons",
+          ]}
+          casestudy={"/project/gmt"}
+        />
+        <ProjectCard
+          name={"Governance AI Agent"}
+          img={"/assets/projects/govai/cover.png"}
+          description={
+            "I built this automation to monitor governance proposals across selected protocols. It checks for new proposals or status changes then posts updates to Twitter with no manual work. I also made an admin page where the team can review tweets, edit them, and manage the tracked protocols. The system runs on n8n and delivers a full workflow for a live governance bot."
+          }
+          tech={[
+            "Next.js",
+            "n8n",
+            "Supabase",
+            "ShadcnUI",
+            "Twitter API",
+            "Gemini API",
+          ]}
+          link={"https://x.com/EthereumGovAI"}
+          casestudy={"/project/ai-agent"}
+        />
+        <ProjectCard
+          name={"A Step Toward Haq"}
+          img={"/assets/projects/a step toward haq/sth1.png"}
+          description={
+            "A full-stack Islamic education platform built for an online Quran and Arabic learning institute. Features structured courses with progress tracking, automated certificate generation, a visual referral tree system, a dedicated admin panel, and real-time notifications — designed to serve a growing global student community."
+          }
+          tech={[
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "PHP",
+            "MySQL",
+            "WhatsApp API",
+          ]}
+          link={"https://asteptowardhaq.netlify.app/"}
+          casestudy={"/project/a-step-toward-haq"}
+        />
+        <ProjectCard
+          name={"Movers Packers Dubai"}
+          img={"/assets/projects/movers&packers/N.png"}
+          description={
+            "A production-ready movers and packers platform for Dubai with service discovery, multi-step bookings, photo uploads, order tracking, customer authentication, transactional emails, and a protected admin dashboard for managing the full booking workflow."
+          }
+          tech={[
+            "React 19",
+            "TypeScript",
+            "Vite",
+            "React Router",
+            "Tailwind CSS",
+            "GSAP",
+            "Lenis",
+            "Leaflet",
+            "Supabase",
+            "Auth0",
+            "Resend",
+          ]}
+          link={"https://movers-packers-dubai.vercel.app/"}
+          casestudy={"/project/movers-packers"}
+        />
+        <ProjectCard
+          name={"Blogify"}
+          img={"/assets/projects/Blogify/blog_project1.png"}
+          description={
+            "A full-featured personal blogging platform built with PHP and MySQL/SQLite. Blogify includes role-based access control, article publishing, media uploads, category search, pagination, comments, user dashboards, admin moderation, and serverless Vercel deployment support."
+          }
+          tech={[
+            "PHP",
+            "MySQL",
+            "SQLite",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "PDO",
+            "Vercel",
+          ]}
+          casestudy={"/project/blogify"}
+        />
+
+        <ProjectCard
+          name={"HinglishMagic"}
+          img={"/assets/projects/hinglishmagic.jpeg"}
+          description={
+            "As a user of the Submagic tool, I needed Hinglish captions, but the app only generated Hindi. I took the initiative to build this Chrome extension to solve my own problem. It converts the Hindi output into easy-to-read Hinglish. The CEO of Submagic loved the idea and later added the feature to their official product."
+          }
+          tech={["JavaScript", "Chrome Extension", "Gemini API", "DOM"]}
+          link={"https://github.com/usmanrasheeddev/HinglishMagic"}
+          casestudy={"/project/submagic"}
+        />
+        <ProjectCard
+          name={"Match-Cut AI (Micro Saas)"}
+          img={"/assets/projects/matchcut/cover.png"}
+          description={
+            "Creating cinematic match cuts is a huge challenge for video editors. This in-progress tool solves that by using AI to generate them automatically. It uses Remotion for programmatic video creation and AWS Lambda for serverless rendering, allowing creators to generate professional match cuts automatically and save hours of work."
+          }
+          tech={[
+            "Next.js",
+            "Supabase",
+            "Remotion",
+            "Tailwind CSS",
+            "AWS Lambda",
+            "Cloudflare R2",
+            "Stripe",
+            "React",
+            "ShadcnUI",
+          ]}
+          casestudy={"/project/matchcut"}
+        />
+        <ProjectCard
+          name={"Anya Website"}
+          img={"/assets/projects/anya.png"}
+          description={
+            "I built this landing page for Anya, a Web3 game. I added a CMS for easy content updates, a blog section, and an interactive map feature. The final result looks clean and engaging."
+          }
+          tech={[
+            "Next.js",
+            "Tailwind CSS",
+            "Framer Motion",
+            "Sanity CMS",
+            "React Bits",
+          ]}
+          link={"https://anyacity.netlify.app/"}
+        />
+        <ProjectCard
+          name={"Tanisha Web3 Consultant"}
+          img={"/assets/projects/tanisha/banner.png"}
+          description={
+            "I delivered a complete website solution for a client who needed full control over her content. By integrating a Sanity CMS and automating her contact form with Google Sheets and Nodemailer, I built a system that empowered her to manage her business independently."
+          }
+          tech={[
+            "Next.js",
+            "Tailwind CSS",
+            "Framer Motion",
+            "Sanity CMS",
+            "GoogleSheet Api",
+            "Nodemailer",
+            "Google Analytics",
+          ]}
+          link={"https://tanishakatara.com/"}
+        />
+        <ProjectCard
+          name={"Snappet"}
+          img={"/assets/projects/snappet/Banner.png"}
+          description={
+            "As a developer, I wanted a better way to share code snippets online. I built this tool with Next.js and Framer Motion to create a polished, engaging UI. The core feature converts styled HTML directly into a downloadable image, which was a fun frontend challenge."
+          }
+          tech={[
+            "Next.js",
+            "Tailwind CSS",
+            "Framer Motion",
+            "ShadcnUI",
+            "Monaco",
+            "HTML to Image",
+          ]}
+          link={"https://snappetio.netlify.app/"}
+        />
+        <ProjectCard
+          name={"Snappet CLI"}
+          img={"/assets/projects/snappetcli/cover.png"}
+          description={
+            "To expand on my original Snappet app, I built this CLI version as an NPM package. This Node.js tool uses Puppeteer for headless browser automation, allowing developers to generate code screenshots directly from their terminal for a much faster workflow."
+          }
+          tech={["JavaScript", "Node.js", "Puppeteer", "DOM"]}
+          link={"https://github.com/usmanrasheeddev/Snappet-CLI"}
+        />
+      </div>
+    </div>
+  );
+};
+
+export default MyProjects;
+
+const ProjectCard = ({
+  name,
+  timeline,
+  description,
+  tech,
+  link,
+  img,
+  casestudy,
+}) => {
+  return (
+    <div className="w-full hover:scale-[1.01] rounded-lg group h-fit hover:ring-[6px] ring-[1px] ring-white/15 overflow-hidden transition-all">
+      <Image
+        alt={name}
+        style={{
+          objectFit: "cover",
+          maxHeight: "205px",
+          width: "100%",
+          scale: "1.04",
+        }}
+        src={img}
+        width={400}
+        height={400}
+      />
+      <div className="flex flex-col h-full items-center justify-between group-hover:bg-gradient-to-t group-hover:from-white/10 group-hover:to-transparent transition-all duration-300">
+        <div className="p-4 space-y-1 tracking-tight  leading-tight">
+          <p className="font-bold">{name}</p>
+          <p className="text-xs">{timeline}</p>
+          <p className="text-xs tracking-normal leading-tight opacity-60">
+            {description}
+          </p>
+        </div>
+        <div className="p-4 w-full space-y-2 ">
+          <div className="flex w-full flex-row gap-1 flex-wrap">
+            {tech?.map((item, index) => (
+              <Badge key={index}>{item}</Badge>
+            ))}
+          </div>
+          <div className="flex flex-row justify-start gap-2 w-full">
+            <div className={"flex flex-row justify-start gap-2 w-full"}>
+              {link && casestudy ? (
+                <>
+                  <Link
+                    href={link}
+                    target={"_blank"}
+                    className="text-xs font-medium cursor-pointer hover:bg-white/80 transition-all duration-300 text-black bg-white py-[2.5px] px-[8px] rounded-md w-fit flex flex-row gap-1 justify-center items-center"
+                  >
+                    <FiGlobe /> Website
+                  </Link>
+                  <Link
+                    href={casestudy}
+                    target={"_self"}
+                    className="text-xs font-medium cursor-pointer hover:bg-white/80 transition-all duration-300 text-black bg-white py-[2.5px] px-[8px] rounded-md w-fit flex flex-row gap-1 justify-center items-center"
+                  >
+                    <BiBookOpen /> Case Study
+                  </Link>
+                </>
+              ) : null}
+              {link && !casestudy ? (
+                <Link
+                  href={link}
+                  target={"_blank"}
+                  className="text-xs font-medium cursor-pointer hover:bg-white/80 transition-all duration-300 text-black bg-white py-[2.5px] px-[8px] rounded-md w-fit flex flex-row gap-1 justify-center items-center"
+                >
+                  <FiGlobe /> Website
+                </Link>
+              ) : null}
+              {!link && casestudy ? (
+                <Link
+                  href={casestudy}
+                  target={"_self"}
+                  className="text-xs font-medium cursor-pointer hover:bg-white/80 transition-all duration-300 text-black bg-white py-[2.5px] px-[8px] rounded-md w-fit flex flex-row gap-1 justify-center items-center"
+                >
+                  <BiBookOpen /> Case Study
+                </Link>
+              ) : null}
+              {!link && !casestudy ? (
+                <div className="text-xs font-medium cursor-pointer hover:bg-white/80 transition-all duration-300 text-black bg-white py-[2.5px] px-[8px] rounded-md w-fit flex flex-row gap-1 justify-center items-center">
+                  Coming Soon
+                </div>
+              ) : null}
+            </div>
+            <GoArrowUpRight className="opacity-0 group-hover:opacity-100 transition-all duration-200" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Badge = ({ children }) => {
+  return (
+    <div className="text-[10px] hover:bg-white/5 transition-all duration-300 py-[2px] px-[6px] bg-white/15 font-bold rounded-md w-fit text-white">
+      {children}
+    </div>
+  );
+};
