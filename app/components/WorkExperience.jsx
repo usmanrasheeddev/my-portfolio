@@ -2,6 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { BsGlobe2 } from "react-icons/bs";
 import { PiBookOpen } from "react-icons/pi";
 import blogifyImage from '../../public/assets/projects/Blogify/logo.png'
+import cryvonLogo from '../../public/assets/cryvon_logo.png'
 import Image from "next/image";
 
 const WorkExperience = () => {
@@ -9,6 +10,13 @@ const WorkExperience = () => {
         <div id="experience" className="">
             <h4 className="text-xl text-balance font-bold leading-tight tracking-tight">Work Experience</h4>
             <div className="flex flex-col gap-5 py-4">
+                <WorkCard png={cryvonLogo} company={"CryVon Tech"} jobTitle={"Project Manager"} points={[
+                    "Planned and managed software projects from kickoff through delivery.",
+                    "Defined tasks, milestones, deadlines, and clear ownership across teams.",
+                    "Coordinated development teams and managed client requirements and communication.",
+                    "Tracked project progress, deliverables, risks, and blockers to keep work on course.",
+                    "Managed end-to-end workflows while ensuring timely, high-quality delivery."
+                ]} description={"Leading software projects at CryVon Tech by aligning teams, clients, timelines, and delivery goals from start to finish."} timeline={"Present"} />
                 <WorkCard png={blogifyImage} company={"Blogify"} jobTitle={"Full-Stack Developer"} points={[
                     "Built a PHP blogging platform with publishing, editing, uploads, and pagination.",
                     "Added role-based access for Admin, Author, Editor, and User roles.",
@@ -45,7 +53,7 @@ const WorkCard = ({ company, jobTitle, description, timeline, icon, points, png 
                     className="size-[50px] text-3xl text-black/80 bg-cover bg-center flex justify-center items-center rounded-full bg-white border border-white/15">
                     {icon}
                 </div> : png ? <div
-                    className="size-[50px] bg-cover bg-center flex overflow-hidden justify-center items-center rounded-full bg-white border border-white/15">
+                    className={`size-[50px] bg-cover bg-center flex overflow-hidden justify-center items-center rounded-full bg-white ${company === "CryVon Tech" ? "" : "border border-white/15"}`}>
                     <Image src={png} alt={company} width={50} height={50} />
                 </div> : <div
                     className="size-[50px] text-white/30 bg-cover bg-center flex justify-center items-center rounded-full bg-white/10 border border-white/15">

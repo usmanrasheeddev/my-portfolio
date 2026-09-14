@@ -271,7 +271,7 @@ const ProjectCard = ({
               <Badge key={index}>{item}</Badge>
             ))}
           </div>
-          <div className="flex flex-row justify-start gap-2 w-full">
+          <div className="flex flex-row justify-between items-center gap-2 w-full">
             <div className={"flex flex-row justify-start gap-2 w-full"}>
               {link && casestudy ? (
                 <>
@@ -315,7 +315,15 @@ const ProjectCard = ({
                 </div>
               ) : null}
             </div>
-            <GoArrowUpRight className="opacity-0 group-hover:opacity-100 transition-all duration-200" />
+            {casestudy ? (
+              <Link
+                href={casestudy}
+                aria-label={`Open ${name} case study`}
+                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white/75 text-black opacity-0 transition-all duration-300 group-hover:opacity-100 hover:bg-white hover:scale-110"
+              >
+                <GoArrowUpRight size={17} />
+              </Link>
+            ) : null}
           </div>
         </div>
       </div>
