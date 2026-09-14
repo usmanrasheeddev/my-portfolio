@@ -11,7 +11,7 @@ const Header = () => {
                 <h2 className=" text-base md:text-xl max-w-xl text-balance leading-tight">Full-Stack Developer Building High-Performing Web Applications</h2>
             </div>
             <div className="flex items-center justify-center min-w-[150px] h-[150px]">
-                <Image width={500} height={500}  src="/assets/profile-pic.png" alt="profile picture"
+                <Image width={500} height={500} src="/assets/profile-pic.png" alt="profile picture"
                     className="w-full h-full object-cover rounded-full bg-white/10 border border-white/15" />
             </div>
         </div>

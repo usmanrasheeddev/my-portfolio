@@ -1,7 +1,6 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { BsGlobe2 } from "react-icons/bs";
 import { PiBookOpen } from "react-icons/pi";
-import ludiImage from '../../public/assets/ludi.png'
 import blogifyImage from '../../public/assets/projects/Blogify/logo.png'
 import Image from "next/image";
 
@@ -11,22 +10,12 @@ const WorkExperience = () => {
             <h4 className="text-xl text-balance font-bold leading-tight tracking-tight">Work Experience</h4>
             <div className="flex flex-col gap-5 py-4">
                 <WorkCard png={blogifyImage} company={"Blogify"} jobTitle={"Full-Stack Developer"} points={[
-                    "Built a complete PHP blogging platform with article publishing, editing, deletion, cover image uploads, and server-side pagination.",
-                    "Implemented role-based access control for Admin, Author, Editor, and User accounts with protected actions and dashboards.",
-                    "Developed category filtering, keyword search, article discussions, comment moderation, and profile management workflows.",
-                    "Designed a dual-engine PDO database layer supporting MySQL on traditional PHP hosting and SQLite for serverless Vercel deployment.",
-                    "Applied prepared statements, XSS escaping, password_hash(), and password_verify() for secure data and authentication handling."
+                    "Built a PHP blogging platform with publishing, editing, uploads, and pagination.",
+                    "Added role-based access for Admin, Author, Editor, and User roles.",
+                    "Created filters, search, discussions, moderation, and profile features.",
+                    "Built a MySQL/SQLite PDO layer for flexible hosting deployment.",
+                    "Secured auth and data with prepared statements and hashed passwords."
                 ]} description={"Developed Blogify, a full-featured personal blogging system covering content creation, community engagement, administrative moderation, secure authentication, and flexible MySQL/SQLite deployment."} timeline={"2026"} />
-                <WorkCard png={ludiImage} company={"Ludi Social"} jobTitle={"Lead Developer"} points={[
-                    "Built the entire application from scratch as the sole developer.",
-                    "Developed the full stack system including frontend, backend, and database.",
-                    "Implemented Convex as the backend infrastructure for real-time data handling.",
-                    "Integrated external APIs including the Twitch API to fetch the latest game data.",
-                    "Designed and built the complete UI and UX system from scratch.",
-                    "Developed a custom ranking algorithm for game scoring and dynamic list sorting.",
-                    "Managed API integrations, data flows, and the overall system architecture.",
-                    "Configured production-level setups, closed-beta testing pipelines, and performance improvements."
-                ]} description={"As the sole Lead Developer, I built and launched the Ludi Social mobile app from scratch, handling the full stack architecture, real-time database syncing, custom ranking algorithms, and beta testing pipelines."} timeline={"Jan 2026 - Present"} />
                 <WorkCard icon={<PiBookOpen />} company={"A Step Toward Haq"} jobTitle={"Full Stack Developer"} points={[
                     "Built a complete Islamic education platform from scratch for an online Quran & Arabic learning institute.",
                     "Developed a structured course system with progress tracking, automated test evaluation, and certificate generation.",

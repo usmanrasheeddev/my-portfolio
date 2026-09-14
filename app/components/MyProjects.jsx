@@ -39,24 +39,6 @@ const MyProjects = () => {
           casestudy={"/project/caption"}
         />
         <ProjectCard
-          name={"Ludi"}
-          img={"/assets/projects/ludi/cover.png"}
-          description={
-            "A social network for gamers to review, catalog, and rank games—similar to Letterboxd. It features a custom ranking algorithm that ranks games dynamically based on user choices in a comparison mini-game. Developed using React Native and Convex, the app is currently in closed-beta testing for iOS and Android."
-          }
-          tech={[
-            "React Native",
-            "Expo",
-            "Convex",
-            "Clerk",
-            "Firebase FCM",
-            "Expo Notifications",
-            "Tailwind CSS",
-          ]}
-          link={"https://ludi.social"}
-          casestudy={"/project/ludi"}
-        />
-        <ProjectCard
           name={"Neurogence"}
           img={"/assets/projects/neurogence.png"}
           description={
