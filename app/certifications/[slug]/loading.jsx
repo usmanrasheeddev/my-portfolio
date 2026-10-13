@@ -1,0 +1,1 @@
+export default function Loading() { return <main className="cert-detail-page"><div className="cert-detail-inner" role="status"><p>Loading certification…</p><div className="cert-loading-preview" /></div></main>; }

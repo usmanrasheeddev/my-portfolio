@@ -1,0 +1,546 @@
+{
+  "0224Z8TLA4V1": {
+    "completionDate": "October 4, 2026",
+    "courseUrl": "https://www.coursera.org/specializations/docker-certified-associate-prep",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~0224Z8TLA4V1/CERTIFICATE_LANDING_PAGE~0224Z8TLA4V1.jpeg",
+    "skills": [
+      "Automation",
+      "Docker (Software)",
+      "CI/CD",
+      "OS Process Management",
+      "Linux Administration",
+      "YAML",
+      "Kubernetes",
+      "Network Troubleshooting",
+      "DevOps",
+      "Command-Line Interface",
+      "Data Storage",
+      "Containerization"
+    ],
+    "description": "Covers Docker installation, container lifecycles, production images, registries, networking, storage, Compose, Swarm, monitoring and security. Includes preparation for the Docker Certified Associate exam.",
+    "application": "Package applications consistently and operate containerized services across development and deployment environments.",
+    "childIds": [
+      "7G2I54YJ4LT6",
+      "4D3T4LH0J3U8",
+      "UUZW1X3Z61AB",
+      "GBTWIUV7922S",
+      "8ULQS22XB7EC",
+      "ZIC4PNZJ393S",
+      "I2R5RILP75XU"
+    ],
+    "sourceChecked": "2026-10-13"
+  },
+  "5395QKKOP4X3": {
+    "completionDate": "July 22, 2026",
+    "courseUrl": "https://www.coursera.org/specializations/aws-generative-ai-developers",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~5395QKKOP4X3/CERTIFICATE_LANDING_PAGE~5395QKKOP4X3.jpeg",
+    "skills": [
+      "LangChain",
+      "Large Language Modeling",
+      "Prompt Engineering Tools",
+      "AI Workflows",
+      "Amazon Web Services",
+      "Model Training",
+      "Model Evaluation",
+      "Application Programming Interface (API)",
+      "Prompt Engineering",
+      "Responsible AI",
+      "Fine-tuning",
+      "Context Management"
+    ],
+    "description": "Covers generative AI applications, agents and knowledge bases on Amazon Bedrock, including model selection, fine-tuning, evaluation, prompt caching and routing.",
+    "application": "Use these concepts to design retrieval-assisted applications, automate workflows and evaluate the quality of model responses.",
+    "childIds": [
+      "9TK4V5EXN5ZJ",
+      "RDNNESY3PEZZ",
+      "JHH36ID96EVZ"
+    ],
+    "sourceChecked": "2026-10-13",
+    "relatedProjects": [
+      {
+        "context": "A portfolio project using React and AWS Lambda for programmatic video rendering.",
+        "url": "/project/caption",
+        "title": "AI Captioning Tool"
+      }
+    ]
+  },
+  "I2R5RILP75XU": {
+    "completionDate": "October 4, 2026",
+    "courseUrl": "https://www.coursera.org/learn/docker-security-troubleshooting",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~I2R5RILP75XU/CERTIFICATE_LANDING_PAGE~I2R5RILP75XU.jpeg",
+    "skills": [
+      "Network Troubleshooting",
+      "Hardening",
+      "Risk Management",
+      "Security Controls",
+      "Data Security",
+      "Vulnerability Scanning",
+      "Cybersecurity",
+      "Infrastructure Security",
+      "Containerization",
+      "Devops Tools",
+      "Vulnerability Assessments",
+      "Performance Measurement"
+    ],
+    "description": "Covers container hardening, seccomp, AppArmor, secrets, daemon TLS, security audits and troubleshooting, alongside DCA exam revision.",
+    "application": "Apply least-privilege settings and structured diagnostics when securing container deployments.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "ZIC4PNZJ393S": {
+    "completionDate": "October 4, 2026",
+    "courseUrl": "https://www.coursera.org/learn/docker-monitoring-engine-administration",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~ZIC4PNZJ393S/CERTIFICATE_LANDING_PAGE~ZIC4PNZJ393S.jpeg",
+    "skills": [
+      "Information Technology Operations",
+      "System Configuration",
+      "Debugging",
+      "Docker (Software)",
+      "Software Installation",
+      "Package and Software Management",
+      "Proxy Servers",
+      "Configuration Management",
+      "Service Management",
+      "Performance Measurement",
+      "Command-Line Interface",
+      "Devops Tools"
+    ],
+    "description": "Covers container logs, inspection, resource statistics, Docker Engine configuration, systemd maintenance, live restore, backups and contexts.",
+    "application": "Use monitoring and maintenance techniques to diagnose resource issues and improve service continuity.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "8ULQS22XB7EC": {
+    "completionDate": "October 4, 2026",
+    "courseUrl": "https://www.coursera.org/learn/docker-compose-container-orchestration",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~8ULQS22XB7EC/CERTIFICATE_LANDING_PAGE~8ULQS22XB7EC.jpeg",
+    "skills": [
+      "Virtual Networking",
+      "MySQL",
+      "Application Lifecycle Management",
+      "WordPress",
+      "Load Balancing",
+      "DevOps",
+      "Devops Tools",
+      "Docker (Software)",
+      "Application Deployment",
+      "Identity and Access Management",
+      "Scalability",
+      "Disaster Recovery"
+    ],
+    "description": "Covers multi-service applications with Compose, Docker Swarm scaling and rolling updates, plus Mirantis Kubernetes Engine and Secure Registry.",
+    "application": "Coordinate dependent services and plan rolling releases for containerized applications.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "GBTWIUV7922S": {
+    "completionDate": "October 4, 2026",
+    "courseUrl": "https://www.coursera.org/learn/docker-networking-storage",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~GBTWIUV7922S/CERTIFICATE_LANDING_PAGE~GBTWIUV7922S.jpeg",
+    "skills": [
+      "Application Deployment",
+      "Network Troubleshooting",
+      "Network Model",
+      "Data Storage",
+      "Network Architecture",
+      "Docker (Software)",
+      "Containerization",
+      "Data Management",
+      "File Systems",
+      "General Networking",
+      "Data Persistence",
+      "Data Storage Technologies"
+    ],
+    "description": "Covers bridge and overlay networks, network drivers, connectivity troubleshooting, volumes, bind mounts, backups and migrations.",
+    "application": "Design isolated service networks and persistent storage for applications that run in containers.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "UUZW1X3Z61AB": {
+    "completionDate": "October 4, 2026",
+    "courseUrl": "https://www.coursera.org/learn/docker-registries-image-distribution",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~UUZW1X3Z61AB/CERTIFICATE_LANDING_PAGE~UUZW1X3Z61AB.jpeg",
+    "skills": [
+      "Containerization",
+      "Package and Software Management",
+      "Command-Line Interface",
+      "Docker (Software)",
+      "Software Versioning",
+      "Devops Tools",
+      "Release Management",
+      "Metadata Management",
+      "Automation",
+      "Continuous Delivery",
+      "Microservices",
+      "Linux"
+    ],
+    "description": "Covers Docker Hub, image repositories, version tags, Docker Content Trust, signing and image delivery through DevOps pipelines.",
+    "application": "Publish versioned images and introduce integrity checks into software delivery workflows.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "4D3T4LH0J3U8": {
+    "completionDate": "October 4, 2026",
+    "courseUrl": "https://www.coursera.org/learn/docker-images-dockerfiles",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~4D3T4LH0J3U8/CERTIFICATE_LANDING_PAGE~4D3T4LH0J3U8.jpeg",
+    "skills": [
+      "Maintainability",
+      "Application Deployment",
+      "Software Installation",
+      "Package and Software Management",
+      "Context Management",
+      "Nginx",
+      "DevOps",
+      "Automation",
+      "Docker (Software)",
+      "Configuration Management",
+      "Linux",
+      "Containerization"
+    ],
+    "description": "Covers image layers and base images, Dockerfile instructions, custom builds, multi-stage builds and .dockerignore.",
+    "application": "Create reproducible builds while reducing image size and unnecessary build context.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "7G2I54YJ4LT6": {
+    "completionDate": "October 4, 2026",
+    "courseUrl": "https://www.coursera.org/learn/docker-fundamentals-course",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~7G2I54YJ4LT6/CERTIFICATE_LANDING_PAGE~7G2I54YJ4LT6.jpeg",
+    "skills": [
+      "Development Environment",
+      "Devops Tools",
+      "Virtualization",
+      "Application Deployment",
+      "Application Lifecycle Management",
+      "OS Process Management",
+      "DevOps",
+      "Software Installation",
+      "Cloud-Native Computing",
+      "Nginx",
+      "Docker (Software)",
+      "Command-Line Interface"
+    ],
+    "description": "Covers Docker architecture, installation, images, tags, Docker Hub and container lifecycle operations.",
+    "application": "Run consistent application environments and inspect, restart and manage their containers.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "5TUJG794CBJI": {
+    "completionDate": "October 4, 2026",
+    "courseUrl": "https://www.coursera.org/learn/introduction-to-docker",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~5TUJG794CBJI/CERTIFICATE_LANDING_PAGE~5TUJG794CBJI.jpeg",
+    "skills": [
+      "Data Persistence",
+      "Software Development",
+      "Application Deployment",
+      "Docker (Software)",
+      "Virtualization",
+      "Application Security",
+      "Containerization"
+    ],
+    "description": "Introduces Dockerfiles, images and containers, then covers logs, performance, persistent data, networking, security, image optimization and multi-service deployment with Docker Compose.",
+    "application": "The listed topics support packaging applications, persisting data and understanding container deployment.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "C2M4MJ3HQHJ4": {
+    "completionDate": "October 3, 2026",
+    "courseUrl": "https://www.coursera.org/learn/foundations-of-agentic-ai-and-github-copilot-sdk",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~C2M4MJ3HQHJ4/CERTIFICATE_LANDING_PAGE~C2M4MJ3HQHJ4.jpeg",
+    "skills": [
+      "Development Environment",
+      "JSON",
+      "Data Science",
+      "Agentic systems",
+      "Generative AI",
+      "GitHub Copilot",
+      "Software Development",
+      "Generative AI Agents",
+      "Prompt Engineering",
+      "Authentications",
+      "Command-Line Interface",
+      "Software Architecture"
+    ],
+    "description": "Covers choosing tasks for agentic automation, configuring the GitHub Copilot SDK, building single-task agents and diagnosing its JSON-RPC runtime.",
+    "application": "Evaluate where an agent is appropriate and prototype focused automation with a clear runtime architecture.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "TT9769R0FWIB": {
+    "completionDate": "September 16, 2026",
+    "courseUrl": "https://www.coursera.org/learn/freelancing-business",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TT9769R0FWIB/CERTIFICATE_LANDING_PAGE~TT9769R0FWIB.jpeg",
+    "skills": [
+      "Value Propositions",
+      "Competitive Analysis",
+      "Market Opportunities",
+      "Service Design",
+      "Business Planning",
+      "Constructive Feedback",
+      "Peer Review",
+      "Market Analysis",
+      "Goal Setting",
+      "Business Strategies",
+      "Business Strategy",
+      "Strategic Thinking"
+    ],
+    "description": "Covers defining a freelance business through personal values, goals, competitive positioning and a clear value proposition, followed by service design and business planning.",
+    "application": "The listed skills can inform service positioning, market research and a practical freelance business plan.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "9TK4V5EXN5ZJ": {
+    "completionDate": "July 22, 2026",
+    "courseUrl": "https://www.coursera.org/learn/getting-started-aws-generative-ai-developers",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~9TK4V5EXN5ZJ/CERTIFICATE_LANDING_PAGE~9TK4V5EXN5ZJ.jpeg",
+    "skills": [
+      "Amazon Bedrock",
+      "Responsible AI",
+      "Amazon Web Services",
+      "AI literacy",
+      "Large Language Modeling",
+      "Generative AI",
+      "Application Programming Interface (API)",
+      "AI Integrations",
+      "Prompt Engineering"
+    ],
+    "description": "Introduces Amazon Bedrock, foundation model selection and responsible AI implementation.",
+    "application": "Compare foundation models and plan responsible AI integrations for an application.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "JHH36ID96EVZ": {
+    "completionDate": "July 22, 2026",
+    "courseUrl": "https://www.coursera.org/learn/amazon-bedrock-customization-optimization-automation",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~JHH36ID96EVZ/CERTIFICATE_LANDING_PAGE~JHH36ID96EVZ.jpeg",
+    "skills": [
+      "Model Training",
+      "Model Evaluation",
+      "Data Processing",
+      "Generative AI",
+      "AI Workflows",
+      "LangChain",
+      "Model Optimization",
+      "Amazon Bedrock",
+      "Fine-tuning"
+    ],
+    "description": "Covers model fine-tuning, performance optimization and automated evaluation.",
+    "application": "Build evaluation routines to compare model behavior before changing an AI workflow.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "RDNNESY3PEZZ": {
+    "completionDate": "July 22, 2026",
+    "courseUrl": "https://www.coursera.org/learn/generative-ai-applications-amazon-bedrock",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~RDNNESY3PEZZ/CERTIFICATE_LANDING_PAGE~RDNNESY3PEZZ.jpeg",
+    "skills": [
+      "AI Workflows",
+      "Context Management",
+      "Retrieval-Augmented Generation",
+      "Generative AI Agents",
+      "Generative AI",
+      "Amazon Bedrock",
+      "Prompt Engineering Tools",
+      "Amazon Web Services"
+    ],
+    "description": "Covers knowledge base development, agent orchestration and retrieval-augmented generation.",
+    "application": "Connect an AI application to reference material and coordinate tasks through agents.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "MSD2C57X8NG5": {
+    "completionDate": "July 22, 2026",
+    "courseUrl": "https://www.coursera.org/learn/microsoft-getting-started-with-generative-ai-in-azure",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~MSD2C57X8NG5/CERTIFICATE_LANDING_PAGE~MSD2C57X8NG5.jpeg",
+    "skills": [
+      "AI literacy",
+      "Application Programming Interface (API)",
+      "Model Evaluation",
+      "Artificial Neural Networks",
+      "Deep Learning",
+      "Artificial Intelligence and Machine Learning (AI/ML)",
+      "Prompt Engineering",
+      "Generative Model Architectures",
+      "Generative AI",
+      "AI Security",
+      "Data Ethics",
+      "Artificial Intelligence"
+    ],
+    "description": "Covers generative AI fundamentals, responsible AI and building applications with Microsoft Foundry, including a course project.",
+    "application": "Assess business use cases and design an AI prototype with ethical and reliability considerations.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "XTEASNB2PE71": {
+    "completionDate": "July 9, 2026",
+    "courseUrl": "https://www.coursera.org/learn/ethical-hacking-with-kali-linux",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~XTEASNB2PE71/CERTIFICATE_LANDING_PAGE~XTEASNB2PE71.jpeg",
+    "skills": [
+      "Digital Forensics",
+      "System Configuration",
+      "Linux Administration",
+      "Network Monitoring",
+      "Bash (Scripting Language)",
+      "Cyber Security Assessment"
+    ],
+    "description": "Covers Kali Linux configuration, virtual testing environments, penetration-testing tools and scripting for maintenance and security tasks.",
+    "application": "Use isolated, authorized lab environments to assess vulnerabilities and automate repeatable checks.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "OS6EBL7KRFFM": {
+    "completionDate": "July 9, 2026",
+    "courseUrl": "https://www.coursera.org/learn/google-introduction-to-ai",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~OS6EBL7KRFFM/CERTIFICATE_LANDING_PAGE~OS6EBL7KRFFM.jpeg",
+    "skills": [
+      "AI Enablement",
+      "Generative AI",
+      "Model Training",
+      "Innovation",
+      "Artificial Intelligence and Machine Learning (AI/ML)",
+      "Machine Learning",
+      "AI literacy",
+      "Critical Thinking"
+    ],
+    "description": "Introduces AI, how models learn from data, tool capabilities and limitations, and the importance of human oversight.",
+    "application": "Choose suitable AI assistance for a task and review its output critically.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "Q9R2S2AQPZIJ": {
+    "completionDate": "June 21, 2026",
+    "courseUrl": "https://www.coursera.org/learn/data-security",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Q9R2S2AQPZIJ/CERTIFICATE_LANDING_PAGE~Q9R2S2AQPZIJ.jpeg",
+    "skills": [
+      "Cryptography",
+      "Network Monitoring",
+      "Network Analysis",
+      "Cybersecurity",
+      "Data Security",
+      "Key Management",
+      "Data Capture",
+      "Data Integrity",
+      "Threat Detection",
+      "Security Information and Event Management (SIEM)",
+      "Encryption",
+      "Network Security"
+    ],
+    "description": "Covers encrypted traffic analysis and incident investigation using NSM, SIEM, SOAR, PCAP, tcpdump, Security Onion and Cisco SecureX.",
+    "application": "Correlate network evidence and monitoring data when investigating authorized security incidents.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "IKS19KTSTJS6": {
+    "completionDate": "June 20, 2026",
+    "courseUrl": "https://www.coursera.org/learn/introduction-to-networking-nvidia",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~IKS19KTSTJS6/CERTIFICATE_LANDING_PAGE~IKS19KTSTJS6.jpeg",
+    "skills": [
+      "TCP/IP",
+      "OSI Models",
+      "Computer Networking",
+      "Data Centers",
+      "Network Protocols",
+      "General Networking",
+      "Network Switches",
+      "Networking Hardware"
+    ],
+    "description": "Introduces network components, solution requirements, the OSI model, TCP/IP and Ethernet forwarding.",
+    "application": "Reason about connectivity and communication between services and network devices.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "TD7SQF7A3AR5": {
+    "completionDate": "June 20, 2026",
+    "courseUrl": "https://www.coursera.org/learn/cplusplus-crypto-v",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~TD7SQF7A3AR5/CERTIFICATE_LANDING_PAGE~TD7SQF7A3AR5.jpeg",
+    "skills": [
+      "Object Oriented Programming (OOP)",
+      "Program Development",
+      "Object Oriented Design",
+      "C++ (Programming Language)",
+      "Computer Programming"
+    ],
+    "description": "The course develops a cryptocurrency exchange application while teaching static and non-static functions and class-based modeling.",
+    "application": "Use object-oriented modeling to organize application entities and their behavior.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "UKK7MGTDXIHC": {
+    "completionDate": "June 20, 2026",
+    "courseUrl": "https://www.coursera.org/learn/instructional-design-foundations-applications",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~UKK7MGTDXIHC/CERTIFICATE_LANDING_PAGE~UKK7MGTDXIHC.jpeg",
+    "skills": [
+      "Analysis",
+      "Learning Theory",
+      "Needs Assessment",
+      "Instructional Design",
+      "Diversity and Inclusion"
+    ],
+    "description": "Introduces instructional systems design, learning theories, design models and analysis methods for addressing organizational performance problems through educational solutions.",
+    "application": "These topics can support learner needs analysis and the design of more inclusive educational experiences.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "B779VUX0T3QU": {
+    "completionDate": "June 19, 2026",
+    "courseUrl": "https://www.coursera.org/learn/foundations-of-cybersecurity",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~B779VUX0T3QU/CERTIFICATE_LANDING_PAGE~B779VUX0T3QU.jpeg",
+    "skills": [
+      "Security Controls",
+      "Cybersecurity",
+      "Cyber Attacks",
+      "Security Information and Event Management (SIEM)"
+    ],
+    "description": "Introduces cybersecurity analyst skills, business impacts of attacks, security ethics and common analyst tools.",
+    "application": "Bring a security-aware perspective to application planning and operational decisions.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  },
+  "IZ9AF8DRQ0ZV": {
+    "completionDate": "June 17, 2026",
+    "courseUrl": "https://www.coursera.org/learn/pearson-full-stack-react-with-spring-boot-unit4",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~IZ9AF8DRQ0ZV/CERTIFICATE_LANDING_PAGE~IZ9AF8DRQ0ZV.jpeg",
+    "skills": [
+      "Full-Stack Web Development",
+      "Restful API",
+      "Front-End Web Development",
+      "Data Persistence",
+      "User Interface (UI)",
+      "Frontend Integration",
+      "Web Applications",
+      "Spring Boot",
+      "User Interface (UI) Design",
+      "React.js",
+      "Back-End Web Development"
+    ],
+    "description": "Covers a Spring Boot REST API with relational storage, React clients, asynchronous requests, routing, state and effect hooks.",
+    "application": "Connect a React interface to backend services and manage client-side data flow.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13",
+    "relatedProjects": [
+      {
+        "context": "A portfolio project using React and AWS Lambda for programmatic video rendering.",
+        "url": "/project/caption",
+        "title": "AI Captioning Tool"
+      }
+    ]
+  },
+  "B24WOO7IIREH": {
+    "completionDate": "June 17, 2026",
+    "courseUrl": "https://www.coursera.org/learn/project-management-foundations",
+    "imageUrl": "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~B24WOO7IIREH/CERTIFICATE_LANDING_PAGE~B24WOO7IIREH.jpeg",
+    "skills": [
+      "Program Management",
+      "Organizational Structure",
+      "Strategic Thinking",
+      "Project Management",
+      "Change Management",
+      "Project Planning",
+      "Project Management Life Cycle"
+    ],
+    "description": "Covers project management roles, lifecycle stages, methodologies and the effect of organizational structure and culture.",
+    "application": "Plan project phases and choose communication and delivery practices appropriate to a team.",
+    "childIds": [],
+    "sourceChecked": "2026-10-13"
+  }
+}

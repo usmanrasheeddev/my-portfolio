@@ -12,6 +12,7 @@ import WorkExperience from "@/app/components/WorkExperience";
 import Education from "@/app/components/Education";
 import Skills from "@/app/components/Skills";
 import Header from "@/app/components/Header";
+import Certifications from "@/app/components/Certifications";
 
 export default function Home() {
 
@@ -41,6 +42,7 @@ export default function Home() {
                 <WorkExperience />
                 <Education />
                 <Skills />
+                <Certifications />
                 {/*<SkillsImCurrentlyLearning />*/}
                 <MyProjects />
                 <Ending />
