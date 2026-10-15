@@ -1,0 +1,40 @@
+export default function sitemap() {
+  const base = "https://www.usmanrasheed.me";
+  const paths = [
+  "/",
+  "/certifications/0224z8tla4v1",
+  "/certifications/5395qkkop4x3",
+  "/certifications/c2m4mj3hqhj4",
+  "/certifications/iz9af8drq0zv",
+  "/certifications/i2r5rilp75xu",
+  "/certifications/zic4pnzj393s",
+  "/certifications/8ulqs22xb7ec",
+  "/certifications/gbtwiuv7922s",
+  "/certifications/uuzw1x3z61ab",
+  "/certifications/4d3t4lh0j3u8",
+  "/certifications/7g2i54yj4lt6",
+  "/certifications/5tujg794cbji",
+  "/certifications/tt9769r0fwib",
+  "/certifications/9tk4v5exn5zj",
+  "/certifications/jhh36id96evz",
+  "/certifications/rdnnesy3pezz",
+  "/certifications/msd2c57x8ng5",
+  "/certifications/xteasnb2pe71",
+  "/certifications/os6ebl7krffm",
+  "/certifications/q9r2s2aqpzij",
+  "/certifications/iks19ktstjs6",
+  "/certifications/td7sqf7a3ar5",
+  "/certifications/ukk7mgtdxihc",
+  "/certifications/b779vux0t3qu",
+  "/certifications/b24woo7iireh",
+  "/project/caption",
+  "/project/gmt",
+  "/project/ai-agent",
+  "/project/a-step-toward-haq",
+  "/project/movers-packers",
+  "/project/blogify",
+  "/project/submagic",
+  "/project/matchcut"
+];
+  return paths.map((path) => ({ url: `${base}${path}`, ...(path === "/" ? { images: [`${base}/assets/profile-pic.png`] } : {}) }));
+}
